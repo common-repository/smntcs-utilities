@@ -1,0 +1,29 @@
+{
+	"name": "smntcs-utilities",
+	"version": "1.0.0",
+	"description": "A collection of custom snippets to hide upsell ads within WP Admin.",
+	"author": "Niels Lange",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"WordPress",
+		"Plugin",
+		"SMNTCS Utilities"
+	],
+	"homepage": "https://github.com/nielslange/smntcs-utilities#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/nielslange/smntcs-utilities.git"
+	},
+	"bugs": {
+		"url": "https://github.com/nielslange/smntcs-utilities/issues"
+	},
+	"devDependencies": {
+		"npm-run-all": "4.1.5"
+	},
+	"scripts": {
+		"test": "npm-run-all --parallel phpcs phplint",
+		"phpcbf": "composer run phpcbf",
+		"phpcs": "composer run phpcs",
+		"phplint": "composer run phplint"
+	}
+}
